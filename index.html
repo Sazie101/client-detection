@@ -1,11 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Samuel Yazie">
+        <meta name="description" content="Samuel Yazie web developer">
+        <meta name="keywords" content="web developer, web, developer, 
+          front-end, html, css, javascript, react, sqi">
+        <title>Client detection</title>
+        <link rel="stylesheet" href="./assets/style/index.css" media="all">
+        <script src="./assets/script/index.js" defer></script>
     </head>
     <body>
-        
+        <div class="container">
+            <main>
+                <div class="big-box">
+                    <section>
+                        <div>
+                            <h2>System</h2>
+                        </div>
+                        <div>
+                            <p id="os"></p>
+                            <p id="language"></p>
+                            <p id="browser"></p>
+                        </div>
+                    </section>
+                    <section>
+                        <div>
+                            <h2>Window</h2>
+                        </div>
+                        <div>
+                            <p id="page-w"></p>
+                            <p id="page-h"></p>
+                            <p id="orientation"></p>
+                        </div>
+                    </section>
+                    <section>
+                        <div>
+                            <h2>Battery</h2>
+                        </div>
+                        <div>
+                            <p id="batteryPercent"></p>
+                            <p id="batteryStatus"></p>
+                        </div>
+                    </section>
+                    <section class="online">
+                        <h2 id="statusTitle"><p id="wifiStatus"></p></h2>
+                    </section>
+                </div>
+            </main>
+        </div>
     </body>
 </html>

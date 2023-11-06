@@ -1,0 +1,42 @@
+@import "./index-reset.css";
+
+body {
+    background-color: #191720;
+}
+
+main {
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    border: 4px solid #26232b;
+}
+
+section + section {
+    margin-top: 30px;
+}
+
+
+.container {
+    width: min(100% - 30px, 1080px);
+    margin-inline: auto;
+}
+.big-box {
+    padding: 40px 0;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.online h2 {
+    padding: 15px 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+}
