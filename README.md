@@ -1,7 +1,7 @@
 # client-detection
 Using the window object to get information about the client.
 ## Demo
-Click here to test the application
+Click [here](https://sazie101.github.io/client-detection/) to test the application
 ##
 <p>
 <img src="https://img.shields.io/badge/code-HTML-informational?style=for-the-badge&logo=html5&logoColor=white&color=E34F26" alt="HTML">
